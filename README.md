@@ -7,6 +7,7 @@ Perform ETL process, connect to AWS RDS instance, load the data into pgAdmin, an
 ## Results
 The raw data row count is 4,850,360, but there are 797 review_ids with no other information.  When we filter the data to 20 votes or more and 50% or more helpful, these blanks are go away, and we are left with 61,948 rows.  
   
+### Data Frame
 ![DataFrame](df.png "DataFrame")  
 In the filtered dataset, there are 334 Vine reviews and 61,614 non-Vine reviews  
 * 139 Vine reviews received 5 stars  
